@@ -1,12 +1,12 @@
 import { ReactElement } from "react";
 
 import complexUrlImage from "@/assets/images/http/complex-url.webp";
-import httpMethodsImage from "@/assets/images/http/http-methods.avif";
+import httpMethodsImage from "@/assets/images/http/http-methods.webp";
 import httpRequestImage from "@/assets/images/http/http-request.webp";
 import httpResponseImage from "@/assets/images/http/http-response.webp";
 import httpStatusCodesImage from "@/assets/images/http/http-status-codes.webp";
 import httpVsWebSocketImage from "@/assets/images/http/http-vs-websocket.webp";
-import httpImage from "@/assets/images/http/http.avif";
+import httpImage from "@/assets/images/http/http.webp";
 import indexHtmlImage from "@/assets/images/http/index-html.webp";
 import jsonBodyImage from "@/assets/images/http/json-body.webp";
 import multipartBodyImage from "@/assets/images/http/multipart-body.webp";
