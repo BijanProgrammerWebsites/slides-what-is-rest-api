@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import apiInGeneralImage from "@/assets/images/api/api-in-general.webp";
 import apiInNetworkImage from "@/assets/images/api/api-in-network.webp";
 import apiInWebImage from "@/assets/images/api/api-in-web.webp";
+import serverAndClientsImage from "@/assets/images/api/server-and-clients.webp";
 
 import ImageSlide, { ImageSize } from "@/slides/image/image.slide";
 
@@ -24,6 +25,13 @@ export default function ApiChapter(): ReactNode {
         imageSrc={apiInNetworkImage.src}
         imageSize={ImageSize.MEDIUM}
         caption="API in Network"
+      />
+      <ImageSlide
+        isAutoAnimated={true}
+        heading={heading}
+        imageSrc={serverAndClientsImage.src}
+        imageSize={ImageSize.MEDIUM}
+        caption="Server & Clients"
       />
       <ImageSlide
         isAutoAnimated={true}
