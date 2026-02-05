@@ -1,8 +1,6 @@
-import React, { ReactElement, SVGProps } from "react";
+import { SVGProps } from "react";
 
-export default function SimpleIconsTelegramIcon(
-  props: SVGProps<SVGSVGElement>,
-): ReactElement {
+export function SimpleIconsTelegram(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -18,3 +16,5 @@ export default function SimpleIconsTelegramIcon(
     </svg>
   );
 }
+
+export default SimpleIconsTelegram;

@@ -1,8 +1,6 @@
-import React, { ReactElement, SVGProps } from "react";
+import { SVGProps } from "react";
 
-export default function SimpleIconsAparatIcon(
-  props: SVGProps<SVGSVGElement>,
-): ReactElement {
+export function SimpleIconsAparat(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -18,3 +16,5 @@ export default function SimpleIconsAparatIcon(
     </svg>
   );
 }
+
+export default SimpleIconsAparat;
